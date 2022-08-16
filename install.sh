@@ -58,7 +58,7 @@ cargo install fnm
 
 echo "Installing Regolith"
 sudo add-apt-repository ppa:regolith-linux/release
-sudo apt install regolith-desktop-mobile -y # or regolith-desktop-standard
+sudo apt install regolith-desktop-standard
 
 #echo "GTK theme" waiting for ayu to be fixed before applying theme u.u
 #gsettings set org.gnome.desktop.interface gtk-theme "Ayu-Dark"
