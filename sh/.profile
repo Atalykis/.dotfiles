@@ -12,3 +12,4 @@
 
 echo "~/.dotfiles/sh/profile"
 . "$HOME/.dotfiles/.env"
+. "/home/atalykis/.local/share/cargo/env"

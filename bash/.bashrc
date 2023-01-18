@@ -129,3 +129,4 @@ fi
 if [ -f "$HOME/.dotfiles/aliases.bash" ]; then
   . "$HOME/.dotfiles/aliases.bash";
 fi
+. "/home/atalykis/.local/share/cargo/env"
