@@ -1198,4 +1198,128 @@ Description:
 This PPA tracks the current Regolith release and will be updated upon the availability of a new release.
 More info: https://launchpad.net/~regolith-linux/+archive/ubuntu/release
 Adding repository.
-Press [ENTER] to continue or Ctrl-c to cancel.
+Press [ENTER] to continue or Ctrl-c to cancel.Hit:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:2 http://fr.archive.ubuntu.com/ubuntu jammy InRelease
+Get:3 http://fr.archive.ubuntu.com/ubuntu jammy-updates InRelease [114 kB]
+Ign:4 https://ppa.launchpadcontent.net/regolith-linux/release/ubuntu jammy InRelease
+Get:5 http://fr.archive.ubuntu.com/ubuntu jammy-backports InRelease [99,8 kB]
+Err:6 https://ppa.launchpadcontent.net/regolith-linux/release/ubuntu jammy Release
+  404  Not Found [IP: 2620:2d:4000:1::3e 443]
+Get:7 http://fr.archive.ubuntu.com/ubuntu jammy-updates/main amd64 DEP-11 Metadata [91,6 kB]
+Get:8 http://fr.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [7 152 B]
+Get:9 http://fr.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 DEP-11 Metadata [127 kB]
+Get:10 http://fr.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 DEP-11 Metadata [940 B]
+Get:11 http://fr.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 DEP-11 Metadata [12,5 kB]
+Reading package lists...
+Adding deb entry to /etc/apt/sources.list.d/regolith-linux-ubuntu-release-jammy.list
+Adding disabled deb-src entry to /etc/apt/sources.list.d/regolith-linux-ubuntu-release-jammy.list
+Adding key to /etc/apt/trusted.gpg.d/regolith-linux-ubuntu-release.gpg with fingerprint EFC31B0AE9F1000B38E37FC8C0930F305A0E0FEF
+Reading package lists...
+Building dependency tree...
+Reading state information...
+installing zinit
+installing docker
+Hit:1 http://fr.archive.ubuntu.com/ubuntu jammy InRelease
+Ign:2 https://ppa.launchpadcontent.net/regolith-linux/release/ubuntu jammy InRelease
+Get:3 https://download.docker.com/linux/ubuntu jammy InRelease [48,9 kB]
+Err:4 https://ppa.launchpadcontent.net/regolith-linux/release/ubuntu jammy Release
+  404  Not Found [IP: 2620:2d:4000:1::3e 443]
+Hit:5 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Get:6 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages [6 255 B]
+Hit:7 http://fr.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:8 http://fr.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  docker-ce-rootless-extras docker-scan-plugin libslirp0 pigz slirp4netns
+Suggested packages:
+  aufs-tools cgroupfs-mount | cgroup-lite
+The following NEW packages will be installed:
+  containerd.io docker-ce docker-ce-cli docker-ce-rootless-extras
+  docker-scan-plugin libslirp0 pigz slirp4netns
+0 upgraded, 8 newly installed, 0 to remove and 0 not upgraded.
+Need to get 102 MB of archives.
+After this operation, 422 MB of additional disk space will be used.
+Get:1 http://fr.archive.ubuntu.com/ubuntu jammy/universe amd64 pigz amd64 2.6-1 [63,6 kB]
+Get:2 https://download.docker.com/linux/ubuntu jammy/stable amd64 containerd.io amd64 1.6.7-1 [28,1 MB]
+Get:3 http://fr.archive.ubuntu.com/ubuntu jammy/main amd64 libslirp0 amd64 4.6.1-1build1 [61,5 kB]
+Get:4 http://fr.archive.ubuntu.com/ubuntu jammy/universe amd64 slirp4netns amd64 1.0.1-2 [28,2 kB]
+Get:5 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-ce-cli amd64 5:20.10.17~3-0~ubuntu-jammy [40,6 MB]
+Get:6 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-ce amd64 5:20.10.17~3-0~ubuntu-jammy [21,0 MB]
+Get:7 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-ce-rootless-extras amd64 5:20.10.17~3-0~ubuntu-jammy [8 163 kB]
+Get:8 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-scan-plugin amd64 0.17.0~ubuntu-jammy [3 521 kB]
+Fetched 102 MB in 41s (2 488 kB/s)
+Selecting previously unselected package pigz.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 209569 files and directories currently installed.)
+Preparing to unpack .../0-pigz_2.6-1_amd64.deb ...
+Unpacking pigz (2.6-1) ...
+Selecting previously unselected package containerd.io.
+Preparing to unpack .../1-containerd.io_1.6.7-1_amd64.deb ...
+Unpacking containerd.io (1.6.7-1) ...
+Selecting previously unselected package docker-ce-cli.
+Preparing to unpack .../2-docker-ce-cli_5%3a20.10.17~3-0~ubuntu-jammy_amd64.deb ...
+Unpacking docker-ce-cli (5:20.10.17~3-0~ubuntu-jammy) ...
+Selecting previously unselected package docker-ce.
+Preparing to unpack .../3-docker-ce_5%3a20.10.17~3-0~ubuntu-jammy_amd64.deb ...
+Unpacking docker-ce (5:20.10.17~3-0~ubuntu-jammy) ...
+Selecting previously unselected package docker-ce-rootless-extras.
+Preparing to unpack .../4-docker-ce-rootless-extras_5%3a20.10.17~3-0~ubuntu-jammy_amd64.deb ...
+Unpacking docker-ce-rootless-extras (5:20.10.17~3-0~ubuntu-jammy) ...
+Selecting previously unselected package docker-scan-plugin.
+Preparing to unpack .../5-docker-scan-plugin_0.17.0~ubuntu-jammy_amd64.deb ...
+Unpacking docker-scan-plugin (0.17.0~ubuntu-jammy) ...
+Selecting previously unselected package libslirp0:amd64.
+Preparing to unpack .../6-libslirp0_4.6.1-1build1_amd64.deb ...
+Unpacking libslirp0:amd64 (4.6.1-1build1) ...
+Selecting previously unselected package slirp4netns.
+Preparing to unpack .../7-slirp4netns_1.0.1-2_amd64.deb ...
+Unpacking slirp4netns (1.0.1-2) ...
+Setting up docker-scan-plugin (0.17.0~ubuntu-jammy) ...
+Setting up containerd.io (1.6.7-1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.
+Setting up docker-ce-cli (5:20.10.17~3-0~ubuntu-jammy) ...
+Setting up libslirp0:amd64 (4.6.1-1build1) ...
+Setting up pigz (2.6-1) ...
+Setting up docker-ce-rootless-extras (5:20.10.17~3-0~ubuntu-jammy) ...
+Setting up slirp4netns (1.0.1-2) ...
+Setting up docker-ce (5:20.10.17~3-0~ubuntu-jammy) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+installing gcloud & kubectl
+deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main
+OK
+Hit:1 http://fr.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:3 http://fr.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://fr.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:5 https://download.docker.com/linux/ubuntu jammy InRelease
+Ign:6 https://ppa.launchpadcontent.net/regolith-linux/release/ubuntu jammy InRelease
+Err:7 https://ppa.launchpadcontent.net/regolith-linux/release/ubuntu jammy Release
+  404  Not Found [IP: 2620:2d:4000:1::3e 443]
+Get:8 https://packages.cloud.google.com/apt cloud-sdk InRelease [6 751 B]
+Get:9 https://packages.cloud.google.com/apt cloud-sdk/main amd64 Packages [309 kB]
+Get:10 https://packages.cloud.google.com/apt cloud-sdk/main i386 Packages [219 kB]
+Reading package lists...
+installing k9s
+
+Thanks for using webi to install '[32mk9s@stable[0m' on '[31mLinux/x86_64[0m'.
+Have a problem? Experience a bug? Please let us know:
+        https://github.com/webinstall/webi-installers/issues
+
+[31mLovin'[0m it? Say thanks with a [34mStar on GitHub[0m:
+        [32mhttps://github.com/webinstall/webi-installers[0m
+
+Downloading k9s from
+https://github.com/derailed/k9s/releases/download/v0.26.3/k9s_Linux_x86_64.tar.gz
+
+Saved as /home/atalykis/Downloads/webi/k9s/0.26.3/k9s_Linux_x86_64.tar.gz
+Extracting /home/atalykis/Downloads/webi/k9s/0.26.3/k9s_Linux_x86_64.tar.gz
+Installing to /home/atalykis/.local/opt/k9s-v0.26.3/bin/k9s
+Installed 'k9s v0.26.3' as /home/atalykis/.local/bin/k9s
+
+installing docker-compose
+installing helmenv helm version manager

@@ -35,8 +35,8 @@ rm -rf ~/.config/starship.toml || true
 ln -s ~/.dotfiles/starship/starship.toml ~/.config/starship.toml
 
 # Regolith
-rm -rf ~/.config/regolith || true
-ln -s ~/.dotfiles/regolith ~/.config/regolith
+rm -rf ~/.config/regolith2 || true
+ln -s ~/.dotfiles/regolith2 ~/.config/regolith2
 
 # # X11
 # rm -rf ~/.Xsession || true

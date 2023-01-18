@@ -130,3 +130,7 @@ if [ -f "$HOME/.dotfiles/aliases.bash" ]; then
   . "$HOME/.dotfiles/aliases.bash";
 fi
 . "/home/atalykis/.local/share/cargo/env"
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
