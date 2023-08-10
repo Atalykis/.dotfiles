@@ -68,6 +68,8 @@ sudo apt update
 sudo apt install regolith-desktop regolith-compositor-picom-glx
 sudo apt upgrade
 
+sudo apt install regolith-look-ayu-mirage
+
 #echo "GTK theme" waiting for ayu to be fixed before applying theme u.u
 #gsettings set org.gnome.desktop.interface gtk-theme "Ayu-Dark"
 
