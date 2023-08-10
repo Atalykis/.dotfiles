@@ -6,7 +6,7 @@ open a terminal and paste this:
 
 ```
 sudo apt install git curl -y
-git clone https://github.com/Aetherall/.dotfiles ~/.dotfiles
+git clone https://github.com/Atalykis/.dotfiles ~/.dotfiles
 cd ~/.dotfiles
 source .env
 sh link.sh
